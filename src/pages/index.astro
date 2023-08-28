@@ -1,0 +1,86 @@
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>1 - Sintesis Control de Versiones</title>
+	</head>
+	<body>
+		<header class="w-full h-16 bg-sky-950 flex justify-center items-center shadow-md shadow-lg">
+			<h1 class=" text-white font-bold text-4xl">Sistemas de Control de Versiones</h1>
+		</header>
+
+		<main class="bg-slate-200 w-full h-auto flex justify-center items-center">
+			<div class="flex justify-center items-center w-2/3 mt-8 mb-8 bg-white shadow-md border border-gray-300 p-4">
+				<div class="flex flex-col w-2/3">
+					<div class="flex items-center justify-center">
+						<h2 class="font-bold text-lg mt-3">¿Qué es un sistema de control de versiones?</h2>
+					</div>
+	
+					<div class="text-justify leading-relaxed">
+						<br>
+						<p>
+							Un control de versiones relacionado específicamente con Git, es un sistema que permite registrar los cambios realizados en un archivo o archivos a lo largo del tiempo, lo que quiere decir que si en algún punto necesitas una versión anterior de algún archivo o alguna versión en especifico podrás recuperarlas gracias a esto. 
+							Un sistema de control de versiones, como ya se mencionó anteriormente, permite regresar a versiones anteriores de archivos de algún proyecto que como diseñador web tengas, o regresar a una versión anterior del proyecto completo, además de tener un historial de todos los cambios realizados para saber quién realizó alguna modificación. Esto quiere decir que si se llega a perder algún archivo o llega a fallar, se puede recuperar fácilmente. 
+						</p>
+						<br>
+						<p>Se encuentran tres tipos de sistemas de control de versiones:</p>
+						<br>
+					</div>
+
+					<div>
+						<h2 class="font-bold text-lg">Sistemas de Control de Versiones Locales</h2>
+					</div>
+
+					<div class="text-justify leading-relaxed">
+						<p>
+							En este método de control de versiones los archivos se copian a un directorio separado, es utilizado por gran cantidad de personas ya que es muy sencillo, pero también es drásticamente propenso a errores, tal es el caso de sobrescribir archivos accidentalmente. Para evitar esto, se desarrollaron sistemas de control de versiones locales, éstos mantienen una base de datos para rastrear los cambios en los archivos. Uno de los ejemplos más populares incluyen el sistema RCS, que almacena conjuntos de parches para reconstruir versiones anteriores.
+						</p>
+						<br>
+					</div>
+
+					<div>
+						<h2 class="font-bold text-lg">Sistemas de Control de Versiones Centralizadas</h2>
+					</div>
+
+					<div class="text-justify leading-relaxed">
+						<p>
+							Estos sistemas surgieron para permitir la colaboración entre desarrolladores en diferentes sistemas. Ejemplos tales como CVS, Subversion y Perforce, tienen un servidor central que almacena los archivos versionados, y los clientes descargan desde ahí. Esto permite un control detallado de los permisos y facilita la administración, pero también cuenta con desventajas, ya que con la dependencia de un servidor único y existe un riesgo de pérdida de datos si el servidor llega a fallar.
+						</p>
+						<br>
+					</div>
+
+					<div>
+						<h2 class="font-bold text-lg">Sistemas de Control de Versiones Distribuidos</h2>
+					</div>
+
+					<div class="text-justify leading-relaxed">
+						<p>
+							Estos sistemas, tales como Git, Mercurial, Bazaar y Darcs, abordan los problemas de los sitemas de control de versiones centralizados. Los clientes no solo descargan copias instantáneas, sino que replican todo el repositorio. Esto proporciona redundancia y flexibilidad. Si el servidor falla, cualquiera de los repositorios en los clientes puede restaurarlo. Los DVCS también manejan múltiples repositorios remotos, permitiendo colaboración diversa en un proyecto y flujos de trabajo más flexibles que los sistemas centralizados.
+						</p>
+						<br>
+					</div>
+
+					<div class="flex items-center justify-center">
+						<h2 class="font-bold text-lg">Conclusión</h2>
+					</div>
+
+					<div class="text-justify leading-relaxed">
+						<br>
+						<p>
+							Entonces, el punto final es abordar a Git como un sistema de control de versiones. Básicamente un sistema de control de versiones es el que permite registrar todos los cambios que vas realizando dentro de tu proyecto como diseñador web o de archivos en específico del proyecto, permitiendo recuperar cualquier versión en cualquier momento.
+							De los tres sistemas de control de versiones podemos concluir que los sitemas locales se basan en la copia de archivos, los centralizados utilizan un servidor central para la colaboración y los distribuidos replican repositorios para mayor seguridad y flexibilidad en la colaboración.
+						</p>
+						<br>
+					</div>
+				</div>
+			</div>	
+
+		</main>
+
+		<footer class="w-full h-8 bg-sky-950 flex justify-end items-center shadow-md shadow-lg">
+			<h1 class=" text-white font-bold text-sm">Sandra Lizbeth Esperanza Machuca, ITT, ISC, Interfaces Web, 2023.</h1>
+		</footer>
+	</body>
+</html>
