@@ -8,5 +8,4 @@ export default defineConfig({
   pages: {
     index: '/src/pages/index.astro'
   }
-
 });
